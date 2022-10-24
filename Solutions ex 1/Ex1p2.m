@@ -1,5 +1,4 @@
-% repeat the following code with i taking each value
-% between 1 and 10 (in steps of 1)
+
 disp('***** squares of numbers 1 through 10:');
 for i=1:1:10
     disp([i,i*i]) % display the number and its square
