@@ -17,5 +17,6 @@ factors = [];   % Allocate empty variable
 for ncnt = 1:input
     if rem(input,ncnt) == 0
         factors = [factors , ncnt];
+        factors(ncnt) = input;
     end
 end
